@@ -1,0 +1,186 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(100deg, #77216f, #da4717);
+}
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.navbar-logo {
+    width: 160px;
+}
+
+.navbar-icon {
+    color: #77216f
+}
+
+
+.form-section::before {
+    content: "";
+    width: 6em;
+    border-bottom: solid 1px white;
+    display: inline-block;
+}
+
+.mobile-navbar {
+    transition: 0.3s;
+    top: -200px;
+    z-index: 125;
+    position: fixed;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 2px 7px 18px 1px rgba(95,86,64,0.5);
+}
+
+
+.mobile-navbar .nav-link {
+    color: #77216f !important;
+    line-height: 1em;
+}
+
+.mobile-display-nav {
+	top: 0px;
+	transition: 1.2s;
+}
+
+.mobile-undisplay-nav {
+	top: -900px;
+	transition: 2.4s;
+}
+
+.navbar-light .navbar-toggler {
+    border:none;
+}
+
+.logo {
+    z-index: 100;
+    width: 200px;
+}
+
+.body-section-container {
+    margin-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.body-section-title {
+    font-style: italic;
+    font-size: 1.7rem;
+    line-height: 1em;
+    padding: 0px;
+}
+
+.div-section-body {
+    line-height: 1.618em;
+    padding: 0px;
+}
+
+.nav-link, .event-date {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.event-date {
+    margin-left: 40px;
+    font-size: 0.7rem;
+}
+
+.nav-link {
+    text-align: right;
+    font-size: 1.3rem;
+}
+
+.event-date::before {
+    content: "";
+    width: 3em;
+    border-bottom: solid 1px white;
+    display: inline-block;
+}
+
+.nav-link::after {
+    content: "";
+    width: 3em;
+    border-bottom: solid 1px #77216f;
+    display: inline-block;
+}
+
+.body-img {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/dots.svg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    body {
+        background-image: linear-gradient(135deg, #77216f, #da4717);
+    }
+
+    .body-img {
+        background-size: 50%;
+    }
+
+    .nav-link::after {
+        border-bottom: solid 1px white;
+    }
+
+    .logo {
+        z-index: 100;
+        width: 300px;
+    }
+
+    .nav-link, .event-date {
+        margin-left: 70px;
+    }
+
+    .nav-link {
+        font-size: 0.7rem;
+    }
+
+    .body-section-container {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding-right: 30px;
+        padding-left: 60px;
+    }
+
+    .body-section-title {
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+
+    .div-section-body {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .body-section-container {
+        margin-top:175px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
