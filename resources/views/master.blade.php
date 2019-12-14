@@ -14,7 +14,7 @@
         <!-- Fontawesome -->
         <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
 
-        <title>Data Science Bootcamp</title>
+        <title>JOSA Data Science Bootcamp</title>
     </head>
     <body>
 
