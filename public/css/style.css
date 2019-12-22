@@ -22,6 +22,11 @@ body {
     color: #77216f
 }
 
+.info-icon {
+    height:16px;
+    width:16px;
+}
+
 .checkboxes-section {
     margin-bottom:20px;
 }
