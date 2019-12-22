@@ -1,13 +1,6 @@
 @extends('master')
 
-@section('style')
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-@endsection
-
 @section('body-section')
-    @if(Session::has('message'))
-        <p class="alert alert-success">{{ Session::get('message') }}</p>
-    @endif
     <div class="row">
         <div class="col-12 col-md-5 body-section-title">
             REGISTRATION
@@ -135,8 +128,7 @@
                         </div>
                         <div class="form-section mb-2">
                             <div>
-                                <label for="inputEmail4">Which operating system you use?<br />
-                                </label>
+                                <label for="inputEmail4">Which operating system you use?</label>
                                 <div class="form-row">
                                     <div class="form-group col-12">
                                         <input type="text" name="used_os" class="form-control" required>
@@ -146,25 +138,26 @@
                         </div>
                         <div class="form-section mb-2">
                             <div>
-
-                                <label for="inputEmail4">What's your competency level in programming?<a href="#" data-toggle="tooltip" title="
-                                    0 - No knowledge in programming.
-                                    1 - Beginner: You have a common knowledge or an understanding of basic techniques and concepts, like "for" loops, arrays and conditional statements.
-                                    2- Intermediate: You have the level of experience gained in an experimental scenarios or as a trainee on-the-job, you can understand concepts like static vs dynamic typing, weak vs strong typing and static inferred types.
-                                    3- Advanced: You can perform the actions associated with programming without assistance, you can understand topics like lazy evaluation, currying and continuations, you are able to come up with reusable functions/objects that solve the overall problem.
-                                    4- Expert: You are known as an expert in this area, for example, you are an author of a framework, you have written and published reusable code, or you have designed and implemented several products/solutions in the domain.">
-
-                                </a></label>
-                                <div class="form-row">
-                                    <div class="form-group col-4 col-md-4 col-lg-3">
-                                        <select class="selectpicker" name="programming_exp">
-                                          <option value="No knowledge in programming">No knowledge in programming</option>
-                                          <option value="Beginner">Beginner</option>
-                                          <option value="Intermediate">Intermediate</option>
-                                          <option value="Advanced">Advanced</option>
-                                          <option value="Expert">Expert</option>
-                                        </select>
-                                    </div>
+                                <label>What's your competency level in programming?</label>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="programmingExp1" name="programming_exp" class="custom-control-input" value="No knowledge in programming" required>
+                                    <label class="custom-control-label pl-2" for="programmingExp1">No knowledge in programming</label>
+                                </div>
+                                <div class="custom-control custom-radio mt-2">
+                                    <input type="radio" id="programmingExp2" name="programming_exp" class="custom-control-input" value="Beginner" >
+                                    <label class="custom-control-label pl-2" for="programmingExp2">Beginner <a href="#" data-toggle="tooltip" title='1 - Beginner: You have a common knowledge or an understanding of basic techniques and concepts, like "for" loops, arrays and conditional statements.'><img class="info-icon" src="\images\info.svg"></a></label>
+                                </div>
+                                <div class="custom-control custom-radio mt-2">
+                                    <input type="radio" id="programmingExp3" name="programming_exp" class="custom-control-input" value="Intermediate" >
+                                    <label class="custom-control-label pl-2" for="programmingExp3">Intermediate <a href="#" data-toggle="tooltip" title="2- Intermediate: You have the level of experience gained in an experimental scenarios or as a trainee on-the-job, you can understand concepts like static vs dynamic typing, weak vs strong typing and static inferred types."><img class="info-icon" src="\images\info.svg"></a></label>
+                                </div>
+                                <div class="custom-control custom-radio mt-2">
+                                    <input type="radio" id="programmingExp4" name="programming_exp" class="custom-control-input" value="Advanced" >
+                                    <label class="custom-control-label pl-2" for="programmingExp4">Advanced <a href="#" data-toggle="tooltip" title="3- Advanced: You can perform the actions associated with programming without assistance, you can understand topics like lazy evaluation, currying and continuations, you are able to come up with reusable functions/objects that solve the overall problem."><img class="info-icon" src="\images\info.svg"></a></label>
+                                </div>
+                                <div class="custom-control custom-radio mt-2">
+                                    <input type="radio" id="programmingExp5" name="programming_exp" class="custom-control-input" value="Expert" >
+                                    <label class="custom-control-label pl-2" for="programmingExp5">Expert <a href="#" data-toggle="tooltip" title="4- Expert: You are known as an expert in this area, for example, you are an author of a framework, you have written and published reusable code, or you have designed and implemented several products/solutions in the domain."><img class="info-icon" src="\images\info.svg"></a></label>
                                 </div>
                             </div>
                         </div>
@@ -239,8 +232,4 @@
             </div>
         </div>
     </div>
-@endsection
-
-@section('scripts')
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 @endsection
