@@ -25,7 +25,7 @@ class CreateRegistrationsTable extends Migration
             $table->longText('exp_handling_data_related_problems');
             $table->string('apply_for_data_scientist');
             $table->string('used_os');
-            $table->integer('programming_exp');
+            $table->string('programming_exp');
             $table->string('registration_fees');
             $table->string('time_availability');
             $table->timestamps();
