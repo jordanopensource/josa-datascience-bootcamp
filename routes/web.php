@@ -22,3 +22,7 @@ Route::get('/home', function () {
 Route::get('call-for-speakers', 'CallForSpeakersController@index');
 
 Route::post('call-for-speakers', 'CallForSpeakersController@store');
+
+Route::resources([
+    'registration' => 'RegistrationController',
+]);
