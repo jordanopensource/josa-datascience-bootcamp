@@ -22,6 +22,19 @@ body {
     color: #77216f
 }
 
+.checkboxes-section {
+    margin-bottom:20px;
+}
+
+.custom-control-label::before {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.custom-control-label::after {
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 .form-section::before {
     content: "";
