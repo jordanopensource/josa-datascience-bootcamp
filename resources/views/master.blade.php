@@ -6,9 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
         <meta property="og:title" content="JOSA Data Science Bootcamp" />
         <meta property="og:site_name" content="JOSA Data Science Bootcamp" />
-        <meta property="og:description" content="Register now to JOSA Data Science Bootcamp!
-A 6-day bootcamp organized by Jordan Open Source Association and delivered by Jordanian data scientists who made sure that the content is relevant to the growing data science industry in Jordan." />
-        <meta property="og:image" content="\images\fbimage.png" />
+        <meta property="og:description" content="Register now to JOSA Data Science Bootcamp! A 6-day bootcamp organized by Jordan Open Source Association and delivered by Jordanian data scientists who made sure that the content is relevant to the growing data science industry in Jordan." />
+        <meta property="og:image" content="http://datascience.jordanopensource.org/images/fbimage.png" />
         <meta property="og:url" content="http://datascience.jordanopensource.org/" />
 
 
@@ -52,6 +51,6 @@ A 6-day bootcamp organized by Jordan Open Source Association and delivered by Jo
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="{{ asset('js/main.js') }}"></script>
         @yield("scripts")
-    
+
     </body>
 </html>
