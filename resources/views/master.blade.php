@@ -9,6 +9,7 @@
         <meta property="og:description" content="Register now to JOSA Data Science Bootcamp! A 6-day bootcamp organized by Jordan Open Source Association and delivered by Jordanian data scientists who made sure that the content is relevant to the growing data science industry in Jordan." />
         <meta property="og:image" content="http://datascience.jordanopensource.org/images/fbimage.png" />
         <meta property="og:url" content="http://datascience.jordanopensource.org/" />
+        <meta property="fb:pages" content="142511369904" />
 
 
         <!-- Bootstrap CSS -->
