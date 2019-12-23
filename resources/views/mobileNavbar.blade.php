@@ -15,14 +15,20 @@
             </li>
             <li class="nav-item mt-4">
                 <a class="nav-link">
-                    sponsorship<br />
-                    opportunities<br />
+                    bootcamp<br />
+                    agenda<br />
                 </a>
             </li>
             <li class="nav-item mt-4">
                 <a class="nav-link">
-                    contact<br />
-                    us<br />
+                    trainers and<br />
+                    contributors<br />
+                </a>
+            </li>
+            <li class="nav-item mt-4">
+                <a class="nav-link">
+                    registration<br />
+                    form<br />
                 </a>
             </li>
         </ul>
