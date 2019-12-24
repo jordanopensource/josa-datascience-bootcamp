@@ -2,7 +2,7 @@
 
 @section('body-section')
     <div class="row">
-        <div class="col-12 col-md-5 body-section-title">
+        <div id="about-us" class="col-12 col-md-5 body-section-title">
             GREET THE <br/>
             NEXT<br />
             GENERATION<br />
@@ -11,30 +11,47 @@
         </div>
         <div class="col-12 col-md-7 mt-4 mt-md-0 text-left div-section-body pr-0">
             <p>
-                JOSA Data Science Bootcamp is a 6-day bootcamp that targets developers
-                and engineers seeking to learn more about data science and to pursue a
-                position in the data science industry.
+                JOSA Data Science Bootcamp is a 6-day bootcamp that targets developers and engineers seeking to learn more about data science and to pursue a position in the data science industry.
             </p>
             <p>
-                The bootcamp will be in a practical, hands-on format covering topics in
-                "Obtaining and Cleaning data", "Visualization and Exploratory Data Analytics",
-                "Machine Learning", "Information Retrieval" and "Recommender Systems".
+                The bootcamp will be in a practical, hands-on format covering topics in "Obtaining and Cleaning data", "Visualization and Exploratory Data Analytics", "Machine Learning" and other advanced topics.
             </p>
             <p>
-                The bootcamp is organized by Jordan Open Source Association and delivered
-                by Jordanian data scientists who made sure that the content is relevant to
-                the growing data science industry in Jordan.
+                The bootcamp is organized by Jordan Open Source Association and delivered by Jordanian data scientists who made sure that the content is relevant to the growing data science industry in Jordan.
             </p>
             <p>
-                The bootcamp will take place between January 4th, 2020 and Feb 8th, 2020.
-                The hands-on sessions will be delivered on 6 consecutive Saturdays to allow
-                people who have fulltime jobs to join. Only the introductory session and wrap-up
-                session will be delivered on work days in the evening.
+                The bootcamp will take place between January 11, 2020 and Feb 15, 2020. The hands-on sessions will be delivered on 6 consecutive Saturdays to allow people who have fulltime jobs to join.
             </p>
         </div>
     </div>
     <div class="row mt-5">
-        <div class="col-12 col-md-5 body-section-title pl-0">
+        <div id="agenda" class="col-12 col-md-5 body-section-title pl-0">
+            BOOTCAMP<br />
+            AGENDA
+        </div>
+        <div class="col-12 col-md-7 mt-4 mt-md-0 text-left div-section-body pr-0">
+            <div class="day">DAY 1<span class="delimiter">&nbsp;</span>January 11, 2020
+                <div class="topic big">Obtaining & Cleaning Data</div>
+            </div>
+            <div class="day">DAY 2<span class="delimiter">&nbsp;</span>January 18, 2020
+                <div class="topic big">Data Visualization and Exploratory Data Analytics</div>
+            </div>
+            <div class="day">DAY 3<span class="delimiter">&nbsp;</span>January 25, 2020
+                <div class="topic big">Machine Learning (1) - Regression</div>
+            </div>
+            <div class="day">DAY 4<span class="delimiter">&nbsp;</span>February 1, 2020
+                <div class="topic big">Machine Learning (2) - Classification</div>
+            </div>
+            <div class="day">DAY 5<span class="delimiter">&nbsp;</span>February 8, 2020
+                <div class="topic big">Machine Learning (3) - Ensemble Methods</div>
+            </div>
+            <div class="day">DAY 6<span class="delimiter">&nbsp;</span>February 15, 2020
+                <div class="topic big">Advanced Topics</div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div id="sponsorship" class="col-12 col-md-5 body-section-title pl-0">
             SPONSORSHIP<br />
             OPPORTUNITIES
         </div>
