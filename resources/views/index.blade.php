@@ -30,23 +30,23 @@
             AGENDA
         </div>
         <div class="col-12 col-md-7 mt-4 mt-md-0 text-left div-section-body pr-0">
-            <div class="day">DAY 1<span class="delimiter">&nbsp;</span>January 11, 2020
-                <div class="topic big">Obtaining & Cleaning Data</div>
+            <div class="day small">DAY 1<span class="delimiter pr-4">&nbsp;</span>January 11, 2020
+                <h5 class="topic">Obtaining & Cleaning Data</h5>
             </div>
-            <div class="day">DAY 2<span class="delimiter">&nbsp;</span>January 18, 2020
-                <div class="topic big">Data Visualization and Exploratory Data Analytics</div>
+            <div class="day small">DAY 2<span class="delimiter pr-4">&nbsp;</span>January 18, 2020
+                <h5 class="topic">Data Visualization and Exploratory Data Analytics</h5>
             </div>
-            <div class="day">DAY 3<span class="delimiter">&nbsp;</span>January 25, 2020
-                <div class="topic big">Machine Learning (1) - Regression</div>
+            <div class="day small">DAY 3<span class="delimiter pr-4">&nbsp;</span>January 25, 2020
+                <h5 class="topic">Machine Learning (1) - Regression</h5>
             </div>
-            <div class="day">DAY 4<span class="delimiter">&nbsp;</span>February 1, 2020
-                <div class="topic big">Machine Learning (2) - Classification</div>
+            <div class="day small">DAY 4<span class="delimiter pr-4">&nbsp;</span>February 1, 2020
+                <h5 class="topic">Machine Learning (2) - Classification</h5>
             </div>
-            <div class="day">DAY 5<span class="delimiter">&nbsp;</span>February 8, 2020
-                <div class="topic big">Machine Learning (3) - Ensemble Methods</div>
+            <div class="day small">DAY 5<span class="delimiter pr-4">&nbsp;</span>February 8, 2020
+                <h5 class="topic">Machine Learning (3) - Ensemble Methods</h5>
             </div>
-            <div class="day">DAY 6<span class="delimiter">&nbsp;</span>February 15, 2020
-                <div class="topic big">Advanced Topics</div>
+            <div class="day small">DAY 6<span class="delimiter pr-4">&nbsp;</span>February 15, 2020
+                <h5 class="topic">Advanced Topics</h5>
             </div>
         </div>
     </div>
