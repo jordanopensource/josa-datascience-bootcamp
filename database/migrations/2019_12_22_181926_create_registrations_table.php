@@ -27,7 +27,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('used_os');
             $table->string('programming_exp');
             $table->string('registration_fees');
-            $table->string('time_availability');
+            $table->mediumText('time_availability');
             $table->timestamps();
         });
     }
