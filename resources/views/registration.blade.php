@@ -187,37 +187,37 @@
                             </label>
                             <div class="mt-4" style="margin-left:26px">
                                 <div class="checkboxes-section">
-                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Session #1 on Saturday Jan 11, 2020 - 9:30AM to 5:30PM" id="timeAvailability1">
+                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Day 1" id="timeAvailability1">
                                     <label class="custom-control-label" for="timeAvailability1">
                                         &nbsp;&nbsp;&nbsp;Session #1 on Saturday Jan 11, 2020 - 9:30AM to 5:30PM
                                     </label>
                                 </div>
                                 <div class="checkboxes-section">
-                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Session #2 on Saturday Jan 18, 2020 - 9:30AM to 5:30PM" id="timeAvailability2">
+                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Day 2" id="timeAvailability2">
                                     <label class="custom-control-label" for="timeAvailability2">
                                         &nbsp;&nbsp;&nbsp;Session #2 on Saturday Jan 18, 2020 - 9:30AM to 5:30PM
                                     </label>
                                 </div>
                                 <div class="checkboxes-section">
-                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Session #3 on Saturday Jan 25, 2020 - 9:30AM to 5:30PM" id="timeAvailability3">
+                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Day 3" id="timeAvailability3">
                                     <label class="custom-control-label" for="timeAvailability3">
                                         &nbsp;&nbsp;&nbsp;Session #3 on Saturday Jan 25, 2020 - 9:30AM to 5:30PM
                                     </label>
                                 </div>
                                 <div class="checkboxes-section">
-                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Session #4 on Saturday Feb 01, 2020 - 9:30AM to 5:30PM" id="timeAvailability4">
+                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Day 4" id="timeAvailability4">
                                     <label class="custom-control-label" for="timeAvailability4">
                                         &nbsp;&nbsp;&nbsp;Session #4 on Saturday Feb 01, 2020 - 9:30AM to 5:30PM
                                     </label>
                                 </div>
                                 <div class="checkboxes-section">
-                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Session #5 on Saturday Feb 08, 2020 - 9:30AM to 5:30PM" id="timeAvailability5">
+                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Day 5" id="timeAvailability5">
                                     <label class="custom-control-label" for="timeAvailability5">
                                         &nbsp;&nbsp;&nbsp;Session #5 on Saturday Feb 08, 2020 - 9:30AM to 5:30PM
                                     </label>
                                 </div>
                                 <div class="checkboxes-section">
-                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Session #6 on Saturday Feb 15, 2020 - 9:30AM to 5:30PM" id="timeAvailability6">
+                                    <input type="checkbox" class="custom-control-input" name="time_availability[]" value="Day 6" id="timeAvailability6">
                                     <label class="custom-control-label" for="timeAvailability6">
                                         &nbsp;&nbsp;&nbsp;Session #6 on Saturday Feb 15, 2020 - 9:30AM to 5:30PM
                                     </label>
