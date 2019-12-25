@@ -16,7 +16,7 @@ class CreateRegistrationsTable extends Migration
         Schema::create('registrations', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->bigInteger('phone_number');
+            $table->string('phone_number');
             $table->string('email')->unique();
             $table->enum('gender', ['male', 'female']);
             $table->string('josa_member');
