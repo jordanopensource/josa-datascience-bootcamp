@@ -3,15 +3,15 @@
         <img class="logo" src="\images\logo.svg" alt="JOSA DATA SCIENCE BOOTCAMP LOGO">
     </a>
     <div class="navbar-nav text-right" style="line-height:0.8em">
-        <a class="nav-item nav-link active d-inline-block">
+        <a class="nav-item nav-link active d-inline-block" href="/home#about-us">
             about<br />
             the bootcamp<br />
         </a>
-        <a class="nav-item nav-link d-inline-block ml-lg-3">
+        <a class="nav-item nav-link d-inline-block ml-lg-3" href="/home#bootcamp-agenda">
             bootcamp<br />
             agenda<br />
         </a>
-        <a class="nav-item nav-link d-inline-block  ml-lg-3">
+        <a class="nav-item nav-link d-inline-block  ml-lg-3" href="/home#trainers">
             trainers and<br />
             contributors<br />
         </a>

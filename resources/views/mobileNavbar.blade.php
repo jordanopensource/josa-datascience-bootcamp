@@ -8,25 +8,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto my-5">
             <li class="nav-item active">
-                <a class="nav-link">
+                <a class="nav-link" href="/home#about-us">
                     about<br />
                     the bootcamp<br />
                 </a>
             </li>
             <li class="nav-item mt-4">
-                <a class="nav-link">
+                <a class="nav-link" href="/home#bootcamp-agenda">
                     bootcamp<br />
                     agenda<br />
                 </a>
             </li>
             <li class="nav-item mt-4">
-                <a class="nav-link">
+                <a class="nav-link" href="/home#trainers">
                     trainers and<br />
                     contributors<br />
                 </a>
             </li>
             <li class="nav-item mt-4">
-                <a class="nav-link">
+                <a class="nav-link" href="/registration">
                     registration<br />
                     form<br />
                 </a>
