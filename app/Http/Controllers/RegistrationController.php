@@ -68,7 +68,7 @@ class RegistrationController extends Controller
 
         for ($i=0; $i < sizeof($request->time_availability); $i++) {
             if($i == 0) {
-                $newApplication->time_availability = $newApplication->time_availability;
+                $newApplication->time_availability = $request->time_availability;
             }
             else {
                 $newApplication->time_availability = $newApplication->time_availability . '///' . $request->time_availability[$i];
