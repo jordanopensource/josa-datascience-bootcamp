@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="row">
-        <div id="agenda" class="col-12 col-md-5 body-section-title pl-0">
+        <div id="bootcamp-agenda" class="col-12 col-md-5 body-section-title pl-0">
             BOOTCAMP<br />
             AGENDA
         </div>
@@ -139,9 +139,9 @@
             </div>
         </div>
     </div>
-    
+
     {{-- <div class="row">
-        <div id="sponsorship" class="col-12 col-md-5 body-section-title pl-0">
+        <div id="trainers" class="col-12 col-md-5 body-section-title pl-0">
             TRAINERS & <br />
             CONTRIBUTORS
         </div>
