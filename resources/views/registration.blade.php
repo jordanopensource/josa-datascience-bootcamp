@@ -171,11 +171,11 @@
                                 </label>
                                 <div class="custom-control custom-radio">
                                     <input type="radio" id="registrationFees1" name="registration_fees" class="custom-control-input" value="yes" required>
-                                    <label class="custom-control-label pl-2" for="registrationFees1">Yes</label>
+                                    <label class="custom-control-label pl-2" for="registrationFees1">I am willing to pay the course fee.</label>
                                 </div>
                                 <div class="custom-control custom-radio mt-2">
                                     <input type="radio" id="registrationFees2" name="registration_fees" class="custom-control-input" value="no">
-                                    <label class="custom-control-label pl-2" for="registrationFees2">No</label>
+                                    <label class="custom-control-label pl-2" for="registrationFees2">I am not willing to pay the course fee.</label>
                                 </div>
                             </div>
                         </div>
