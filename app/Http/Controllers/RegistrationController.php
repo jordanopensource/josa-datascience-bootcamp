@@ -41,7 +41,7 @@ class RegistrationController extends Controller
                         'email' => 'required|unique:registrations|max:100',
                         'phone_number' => 'required|max:30',
                         'experience_years' => 'required|min:0',
-                        'current_position' => 'required|max:30',
+                        'current_position' => 'required|max:255',
                         'josa_member' => 'required',
                         'programming_exp' => 'required'
                     ]);
